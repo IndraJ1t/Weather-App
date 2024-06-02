@@ -1,0 +1,89 @@
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoBnV4HltvAViKCMQJ5YsDNIk15t3pke5w0w&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+nav{
+    background-color: #2e4c8b;
+}
+
+.card {
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 20rem;
+    height: 14rem;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    background-size:cover;
+    filter: blur(3px);
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.card:hover .card-img {
+    transform: scale(1.1);
+    filter: blur(1px);
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7s);
+    background: rgba(0, 0, 0, 0.5); /* Optional: dark overlay for better text readability */
+}
+
+.card-header, .card-body {
+    background: transparent;
+    border: none;
+}
+
+.btn {
+    background-color: #a3c5ff;
+    color: black;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #6a11cb;
+    transform: scale(1.05);
+}
+
+.table {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.table th, .table td {
+    border: none;
+}
+.table td{
+    background: rgba(0, 0, 0, 0.01);
+
+}
+
+.table th {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.table-responsive {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.img-fluid{
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+}

@@ -1,0 +1,27 @@
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoBnV4HltvAViKCMQJ5YsDNIk15t3pke5w0w&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+p {
+    color: #495057;
+}
+
+.img-fluid {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+ul {
+    color: #495057;
+}
+
+
