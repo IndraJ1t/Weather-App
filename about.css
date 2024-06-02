@@ -4,6 +4,9 @@ body {
     background-size: cover;
     font-family: 'Arial', sans-serif;
 }
+nav{
+    background-color: #2e4c8b;
+}
 
 h1, h2 {
     color: #fff;

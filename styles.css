@@ -62,19 +62,22 @@ nav{
 }
 
 .table {
-    background: rgba(0, 0, 0, 0.2);
+    /* background: rgba(0, 0, 0, 0.2); */
+    background-image: url("https://st3.depositphotos.com/1756443/34573/i/450/depositphotos_345738220-stock-photo-blue-sky-white-clouds-backgroun.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .table th, .table td {
     border: none;
 }
 .table td{
-    background: rgba(0, 0, 0, 0.01);
+    background: rgba(0, 0, 0, 0.05);
 
 }
 
 .table th {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .table-responsive {
